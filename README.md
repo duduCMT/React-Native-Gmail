@@ -24,6 +24,7 @@ Projeto para prática e aprendizado das libs do Expo mais recentes (2023 e 2024)
 
 - [Expo Router](https://docs.expo.dev/router/introduction/)
 - [NativeWind v4](https://www.nativewind.dev/v4/overview)
+- [clsx](https://www.npmjs.com/package/clsx)
 
 ## 🔎 Instruções para rodar o projeto
 📌 **Pré requisitos:**
