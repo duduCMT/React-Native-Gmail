@@ -23,6 +23,7 @@ Projeto para prática e aprendizado das libs do Expo mais recentes (2023 e 2024)
 ## 📚 Principais Libs Utilizadas
 
 - [Expo Router](https://docs.expo.dev/router/introduction/)
+- [NativeWind v4](https://www.nativewind.dev/v4/overview)
 
 ## 🔎 Instruções para rodar o projeto
 📌 **Pré requisitos:**
