@@ -1,0 +1,43 @@
+{
+    "cSpell.words": [
+      "anims",
+      "chatbubble",
+      "checkin",
+      "cnpj",
+      "dayjs",
+      "deselectable",
+      "esnext",
+      "Gmail",
+      "gorhom",
+      "imask",
+      "imgs",
+      "Ionicons",
+      "lottie",
+      "Pinterest",
+      "prebuild",
+      "pressable",
+      "Pressable",
+      "qrcode",
+      "reservate",
+      "Reservate",
+      "Roboto",
+      "svgr",
+      "svgs",
+      "unistyles",
+      "Unselecteble",
+      "Whatsapp",
+      "youtube",
+      "zindexs"
+    ],
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "material-icon-theme.folders.associations": {
+      "sections": "layout",
+      "styled-components": "theme",
+      "forms": "docs",
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+  }
