@@ -18,7 +18,7 @@ Projeto simples para recriação da tela principal do Gmail e navegação usando
 
 ## 🚀 Objetivo
 
-Projeto para prática e aprendizado das libs do Expo mais recentes (2023 e 2024). A ideia é entender melhor os conceitos implementados recentemente como o Expo-Router. 
+Projeto para prática e aprendizado das libs do Expo mais recentes (2023 e 2024) e também da utilização do Tailwind CSS no React Native usando a lib NativeWind.
 
 ## 📚 Principais Libs Utilizadas
 
