@@ -1,16 +1,16 @@
 ![](.github/assets/images/logo.png)
 
 # Gmail UI (UI Clone) - React Native
-[![](https://img.shields.io/badge/Status-Em%20Desenvolvimento-red)](#) 
+[![](https://img.shields.io/badge/Status-Finalizado-green)](#) 
 [![](https://img.shields.io/badge/Version-1.0.0-yellow)](#)
 
-<!-- ## 📸 Preview 
+## 📸 Preview 
 
 <div align="center">
   <div style="display: flex; justify-content: center;">
-    <img src=".github/assets/images/preview01.gif" style="height: 500px;">
+    <img src=".github/assets/images/preview01.gif" style="height: 450px;">
   </div>
-</div> -->
+</div>
 
 ## 📝 Descrição
 
