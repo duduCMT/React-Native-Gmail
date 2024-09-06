@@ -21,7 +21,7 @@ export default function DrawerLayout() {
           {
             title: "Todas as Caixas de entrada",
             iconName: "all-inbox",
-            notifications: 5,
+            notifications: 8,
             isDivider: true,
           } as CustomOptions
         }
@@ -30,10 +30,9 @@ export default function DrawerLayout() {
         name="inbox"
         options={
           {
-            title: "Entrada",
+            title: "Principal",
             iconName: "inbox",
-            notifications: 3,
-            isDivider: true,
+            notifications: 6,
           } as CustomOptions
         }
       />
@@ -41,8 +40,10 @@ export default function DrawerLayout() {
         name="stars"
         options={
           {
+            sectionTitle: "Todos os marcadores",
             title: "Com estrelas",
             iconName: "star-outline",
+            notifications: 2,
           } as CustomOptions
         }
       />
@@ -129,7 +130,6 @@ export default function DrawerLayout() {
           {
             title: "Lixeira",
             iconName: "delete-outline",
-            isDivider: true,
           } as CustomOptions
         }
       />
@@ -137,9 +137,9 @@ export default function DrawerLayout() {
         name="read"
         options={
           {
-            title: "Lixeira",
-            iconName: "label-important-outline",
-            sectionTitle: "Marcadores",
+            sectionTitle: "Apps do Google",
+            title: "Agenda",
+            iconName: "calendar-today",
           } as CustomOptions
         }
       />
@@ -147,18 +147,8 @@ export default function DrawerLayout() {
         name="general"
         options={
           {
-            title: "Lixeira",
-            iconName: "label-important-outline",
-            isDivider: true,
-          } as CustomOptions
-        }
-      />
-      <Drawer.Screen
-        name="new-marker"
-        options={
-          {
-            title: "Criar novo",
-            iconName: "add",
+            title: "Contatos",
+            iconName: "account-circle",
             isDivider: true,
           } as CustomOptions
         }
@@ -173,19 +163,10 @@ export default function DrawerLayout() {
         }
       />
       <Drawer.Screen
-        name="feedback"
-        options={
-          {
-            title: "Enviar feedback",
-            iconName: "feedback",
-          } as CustomOptions
-        }
-      />
-      <Drawer.Screen
         name="help"
         options={
           {
-            title: "Ajuda",
+            title: "Ajuda e feedback",
             iconName: "help-outline",
           } as CustomOptions
         }

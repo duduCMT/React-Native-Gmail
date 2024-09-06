@@ -1,4 +1,4 @@
-import { Image, View } from "react-native";
+import { Image, Text, View } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
 
 import DrawerButton from "@/components/DrawerButton";
@@ -26,9 +26,29 @@ export function DrawerContent(drawerProps: DrawerContentProps) {
                 return;
               }
 
+              const onPress = () => {
+                const event = drawerProps.navigation.emit({
+                  type: "drawerItemPress",
+                  canPreventDefault: true,
+                  target: route.key,
+                });
+
+                if(!isFocused && !event?.defaultPrevented) {
+                  drawerProps.navigation.navigate(route.name, route.params);
+                };
+              };
+
+              
+
               return (
                 <View key={route.key}>
+                  {
+                    options.sectionTitle ? (
+                      <Text className="text-gray-400 text-sm font-heading ml-4 mt-6">{options.sectionTitle}</Text>
+                    ) : null
+                  }
                   <DrawerButton 
+                    onPress={onPress}
                     title={options.title} 
                     isDivider={options.isDivider}
                     iconName={options.iconName}
