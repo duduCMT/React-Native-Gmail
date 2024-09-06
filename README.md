@@ -18,7 +18,7 @@ Projeto simples para recriação da tela principal do Gmail e navegação usando
 
 ## 🚀 Objetivo
 
-Projeto para prática e aprendizado das libs do Expo mais recentes (2023 e 2024) e também da utilização do Tailwind CSS no React Native usando a lib NativeWind.
+Projeto para prática e aprendizado das libs do Expo mais recentes (2023 e 2024),utilização do Tailwind CSS no React Native usando a lib NativeWind e navegação de diferentes tipos aninhadas (Tab e Drawer).
 
 ## 📚 Principais Libs Utilizadas
 
@@ -57,11 +57,11 @@ del %localappdata%Tempmetro-cache
 npx expo start --clear
 ```
 
-<!-- ## 📸 Preview das Telas
+## 📸 Preview das Telas
 
 <div align="center">
   <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px;">
     <img src=".github/assets/images/preview01.png" style="height: 420px;">
     <img src=".github/assets/images/preview02.png" style="height: 420px;">
   </div>
-</div> -->
+</div>
